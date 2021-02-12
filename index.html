@@ -5,10 +5,16 @@
     
     <script type="module">
       // Add import(s) for your module(s) to here and modify event listeners
-      import {spaceHorizontally } from 'customtranslate.js';
+      var canvas = new fabric.Canvas('c');
+      // let rect = addObjectSet1().rect;
+      // console.log("rect", rect)
+      // console.log("canvas", canvas)
       document.querySelector('#spaceHorizontally').addEventListener('click',
         () => {
-          // alert("EDIT ME")
+          // console.log("2", rect)
+          let rect = addObjectSet1();
+          rect.setLeft(rect.getLeft() + 10);
+	        canvas.renderAll();
         }
       )
 

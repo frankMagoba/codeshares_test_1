@@ -1,4 +1,5 @@
 function spaceHorizontally() {
+  object.set('left', 123)
     canvas.renderAll()
   }
 

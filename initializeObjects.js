@@ -7,7 +7,7 @@ function addObjectSet1() {
     width: 50,
     height: 120,
     fill: 'green',
-    opacity: 0.5
+    opacity: 0.5,
   })
 
   canvas.add(rect)
